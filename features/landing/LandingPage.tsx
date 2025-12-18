@@ -28,19 +28,19 @@ const LandingPage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-brand-900 text-white py-24 lg:py-32">
         <div className="absolute inset-0">
-           <img 
-             src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=2000" 
-             className="w-full h-full object-cover opacity-20"
-           />
-           <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-brand-900/50 to-transparent"></div>
+          <img
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=2000"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-brand-900/50 to-transparent"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Delicious Food,<br/>Delivered Your Way.
+            Delicious Food,<br />Delivered Your Way.
           </h1>
           <p className="text-xl text-brand-100 mb-10 max-w-2xl mx-auto">
-            The all-in-one platform for food lovers, chefs, riders, and restaurants. 
+            The all-in-one platform for food lovers, chefs, riders, and restaurants.
             Experience the future of food delivery today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -57,7 +57,7 @@ const LandingPage: React.FC = () => {
       {/* Portals Grid */}
       <section className="max-w-7xl mx-auto px-4 py-20 -mt-20 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          
+
           {/* Eater Card */}
           <div className="bg-white p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition-transform duration-300 border border-gray-100 flex flex-col items-center text-center group cursor-pointer" onClick={() => navigate('/feed')}>
             <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 mb-6 group-hover:scale-110 transition-transform">
@@ -121,18 +121,18 @@ const LandingPage: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-             <div>
-               <div className="text-4xl font-bold text-brand-500 mb-2">10k+</div>
-               <p className="text-gray-600 font-medium">Happy Eaters</p>
-             </div>
-             <div>
-               <div className="text-4xl font-bold text-brand-500 mb-2">500+</div>
-               <p className="text-gray-600 font-medium">Restaurant Partners</p>
-             </div>
-             <div>
-               <div className="text-4xl font-bold text-brand-500 mb-2">30 mins</div>
-               <p className="text-gray-600 font-medium">Average Delivery Time</p>
-             </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-500 mb-2">10k+</div>
+              <p className="text-gray-600 font-medium">Happy Eaters</p>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-500 mb-2">500+</div>
+              <p className="text-gray-600 font-medium">Restaurant Partners</p>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-500 mb-2">30 mins</div>
+              <p className="text-gray-600 font-medium">Average Delivery Time</p>
+            </div>
           </div>
         </div>
       </section>
@@ -140,11 +140,7 @@ const LandingPage: React.FC = () => {
       <footer className="bg-gray-50 border-t border-gray-200 py-12 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
           <p className="mb-4">Created with &hearts; by <code>0xQ4B4S</code></p>
-          <div className="flex justify-center gap-6">
-            <a href="#" className="hover:text-brand-600">Privacy</a>
-            <a href="#" className="hover:text-brand-600">Terms</a>
-            <a href="#" className="hover:text-brand-600">Contact</a>
-          </div>
+
         </div>
       </footer>
     </div>
