@@ -1,0 +1,5 @@
+{
+  "name": "To-Eat",
+  "description": "A production-quality food delivery and meal kit application featuring a modular architecture, centralized API management, and runtime mock switching.",
+  "requestFramePermissions": []
+}
