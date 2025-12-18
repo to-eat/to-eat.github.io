@@ -1,1 +1,0 @@
-import{j as r}from"./index-C4Bhj8Yd.js";const g=({children:e,variant:t="default",className:n=""})=>{const s={default:"bg-gray-100 text-gray-800",success:"bg-green-100 text-green-800",warning:"bg-orange-100 text-orange-800"};return r.jsx("span",{className:`inline-flex items-center rounded px-2 py-0.5 text-xs font-semibold ${s[t]} ${n}`,children:e})};export{g as B};
